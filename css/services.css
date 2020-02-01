@@ -71,7 +71,7 @@ body {
 }
 
 .starter-flex, .contact {
-	border-top: 2px solid #000;
+	border-top: 1px solid #000;
 	padding-top: 35px;
 	margin-top: 35px;
 }
@@ -81,26 +81,25 @@ nav img {
 	margin-top: -10px;
 }
 
-
-
 .flex-container {
 	display: flex;
 	justify-content: space-around;
-	margin-bottom: 5%;
 }
-
-.one{
-	display: flex;
-	justify-content: space-around;
-	width: 100%;
-	margin-right: 6%;
-}
-
 nav a {
 	color: grey;
 	text-decoration: none;
 }
 
+/*nav ul li {
+	display: inline-block;
+	padding-right: 35px;
+}*/
+
+/*nav a{
+	display: inline-block;
+	color: grey;
+	text-decoration: none;
+}*/
 
 .logo { 
 	box-sizing: 20%;
@@ -112,6 +111,11 @@ nav a {
 	justify-content: space-around;
 	padding-top: 12px;
 	padding-bottom: 20px;
+	/*display: inline-block;
+	margin: 1% 0;
+	width: 100%;
+	padding-top: 12px;
+	padding-bottom: 20px;*/
 }
 
 .innovate {
@@ -121,15 +125,15 @@ nav a {
 	margin: 1%;
 	padding: 5%;
 	width: 100%;
-	font-family: 'bangers', cursive;
 }
 
 button {
 	font-family: 'Titillium Web', sans-serif;
+	/* display: inline-block; */
 	border: 1px solid black;
 	font-size: 15px;
 	font-weight: none;
-	width: 50%;
+	width: 44%;
 	height: 30px;
 	text-align: center;
 	line-height: 10px;
@@ -141,6 +145,16 @@ button {
 	padding: 5% 0;
 }
 
+/* .starter1-flex {
+	display:flex;
+	justify-content: space-around;
+	width: 49%;
+}
+.starter2-flex {
+	display:flex;
+	justify-content: space-around;
+	width: 49%;
+} */
 
 .starter1, .starter2 {
 	width: 49%;
@@ -158,160 +172,4 @@ button {
 footer {
 	text-align: center;
 	padding: 60px 0;
-}
-
-
-@media only screen and (max-width: 800px) {
-	nav{
-		width: 80%;
-
-	}
-
-	.flex-container {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column-reverse;
-	}
-
-	.logo {
-		width: 20%;
-		padding-bottom: 5%;
-	}
-
-	.right{
-		display:none;
-	}
-
-	.one{
-		display: flex;
-		justify-content: space-around;
-		width: 100%;
-
-	}
-	
-	.innovate {
-		justify-content: center;
-		align-items: center;
-		width: 80%;
-		margin-right: 20%;
-	}
-
-	.starter-flex, .middle-img, .finisher {
-		display: flex;
-		justify-content: center;
-		width: 80%;
-	}
-	
-	.contact {
-		display: flex;
-		justify-content: center;
-		width: 80%;
-	}
-
-	.class {
-		
-		margin-right: 93%;
-	}
-
-	.copy {
-		display: flex;
-		justify-content: center;
-		width: 80%;
-	}
-}
-
-@media only screen and (max-width: 500px) {
-	nav {
-		width: 50%;
-
-	}
-
-	.flex-container {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column-reverse;
-	}
-
-	.logo {
-		width: 40%;
-		padding-bottom: 5%;
-
-	}
-
-	.right{
-		display:none;
-	}
-
-	.one{
-		display: flex;
-		justify-content: space-around;
-		width: 100%;
-		flex-direction: column;
-		align-items: center;
-		height: 350px;
-		border-top: 2px solid grey;
-
-	}
-
-	a {
-		border-bottom: 2px solid grey;
-		padding-bottom: 20px;
-		width: 100%;
-		text-align: center;
-	}
-
-	button {
-		width: 50%;
-	}
-	
-	.innovate {
-		justify-content: center;
-		width: 100%;
-		margin-right: 51%;
-	}
-
-	.starter-flex, .middle-img, .finisher {
-		display: flex;
-		justify-content: center;
-		flex-direction: column;
-		width: 50%;
-	}
-
-	 .starter2 {
-		width: 100%;
-		padding-top: 6%;
-	}
-
-	.starter1 {
-		width: 100%;
-	}
-
-	.finisher1 {
-		width: 100%;
-		padding-top: 4%;
-	}
-
-	 .finisher2, .finisher3 {
-		width: 100%;
-		padding-top: 6%;
-	}
-	
-	.contact {
-		display: flex;
-		justify-content: center;
-		width: 50%;
-	}
-
-	.class {
-		
-		margin-right: 88%;
-	}
-
-	.copy {
-		display: flex;
-		justify-content: center;
-		width: 50%;
-	}
 }
